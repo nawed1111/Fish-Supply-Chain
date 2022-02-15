@@ -28,6 +28,11 @@ Start ganache-cli
 ganache-cli
 ```
 
+Compile using truffle
+```bash
+sudo truffle compile
+```
+
 Test using truffle
 ```bash
 truffle test
