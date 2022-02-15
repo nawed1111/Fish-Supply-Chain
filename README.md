@@ -51,9 +51,9 @@ rinkby: {
 ### Migrate to rinkby test network
 Run and copy the contract address
 ```bash
-truffle migrate --network rinkby
+sudo truffle migrate --network rinkby
 ```
-### Update the contract address in ./bridge/gateway.js
+### Update the Gateway contract address in ./bridge/gateway.js
 const instance = new web3.eth.Contract(
   Gateway.abi,
   "<paste_contract_address_here>"
